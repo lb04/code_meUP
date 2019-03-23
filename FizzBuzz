@@ -1,0 +1,20 @@
+===
+This program prints Fizz when a numberis divided by three, it prints Buzz when there is a number divided by five 
+and it prints FizzBuzz when there is a number divided by fifteen.
+===
+#Create an number(Please enter an integer!!!)
+n = int(input("Enter a number: "))
+
+for  i in range(1,n+1):  # iterate 'i' from 1 to n
+    if i % 15 == 0:  # check if 'i' can be divided by fifteen
+        print("FizzBuzz")
+    elif i % 5 == 0:  # check if 'i' can be divided by five
+        print("Buzz")
+    elif i % 3 == 0: #check if 'i' can be divided by three
+        print("Fizz")
+    else:
+        print(i)
+
+
+
+
