@@ -1,0 +1,11 @@
+===
+This program adds values in an empty list with while loop.
+===
+n = int(input("Enter a number: "))
+i = 1
+z = []
+while n >= i:
+    z.append(i)
+
+    i = i + 1
+print(z)
