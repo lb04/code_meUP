@@ -1,16 +1,11 @@
-#a = 'abcd'
-#b = 'acbd'
-#a == b
-#a != b
-#age = int(input("Please enter your age: "))
-#if age > 18:
-    #print("you are enough old to drive!")
-#elif age == 0:
-    #print("Sorry you have entered wrong age, please retry: ")
-#else:
-    #print("Sorry you have entered wrong age, please retry: ")
+===
+This program counts the area and the perimeter of the shapes
+SHAPES(triangle, squer)
+===
 shape = input("Enter a shape: ")
+#User input is 'triangle'
 if shape == 'triangle':
+    #Calaculate the base the heigh and the sides of the triangle
     heigh = int(input("Enter a heigh: "))
     while heigh <= 0:
          heigh = int(input("Please enter an int for the heigh: "))
@@ -26,7 +21,9 @@ if shape == 'triangle':
     print("The area of your triangle is: ", heigh * base/2,
           "The perimeter of your triangle is: ", base + side1
           + side2)
+#User input 'squer'
 elif shape == "squer":
+    #Calculate the base and the heighof the squer
     heigh = int(input("Enter a heigh: "))
     while heigh <= 0:
         heigh = int(input("Please enter an int for the heigh: "))
@@ -35,30 +32,3 @@ elif shape == "squer":
         base = int(input("Please enter an int for the base: "))
     print("The area of your squer is: ", heigh * base,
           "The perimeter of your squer is: ", 2*heigh + 2*base)
-#x = 1
-#while x < 101:
-    #print(x)
-    #x = x + 1
-#x = 3,58457895
-#i = 1
-#while i <= 10:
-    #print(x * i)
-    #i = i + 1
-#age = 0
-#while age < 1 or age > 99:
-    #age = int(input("Enter your age: "))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
