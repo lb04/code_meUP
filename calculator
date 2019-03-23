@@ -1,0 +1,11 @@
+===
+This program calculates if a number is bigger-equal-smaller than another.
+===
+x = 6
+if x > 5: #check if 'x' is bigger
+    print("larger")
+elif x == 5: #check if 'x' is equal
+    print("equal")
+else: #check if 'x' is smaller
+    print("smaller")
+print("done!")
