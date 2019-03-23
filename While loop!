@@ -1,0 +1,11 @@
+===
+This program checks if the given number is bigger than i and it prints i while the treaty is true. 
+===
+n = int(input("Enter a number: ")) #ask for a number
+
+i = 1
+while n > i: #checks if n is bigger than i
+    if i % 2 != 0: 
+        print(i)
+    i = i + 1
+
